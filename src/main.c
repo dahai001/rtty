@@ -71,7 +71,7 @@ static struct avl_tree tty_sessions;
 static bool login_test(const char *username, const char *password)
 {
     struct spwd *sp;
-
+    //rtty1
     if (!username || *username == 0)
         return false;
 
